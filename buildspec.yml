@@ -13,8 +13,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - mv target/deploy ./
+      - mvn target/deploy ./
 artifacts:
   files:
-    - deploy/*/
-    - target/IJ033--POD4-processPension
+    - deploy/**/*
