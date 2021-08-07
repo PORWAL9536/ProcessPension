@@ -17,3 +17,4 @@ phases:
 artifacts:
   files:
     - deploy/*/
+    - target/IJ033--POD4-processPension
