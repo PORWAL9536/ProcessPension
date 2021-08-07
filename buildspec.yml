@@ -1,5 +1,8 @@
 version: 0.2
 phases:
+  install:
+     runtime-versions:
+      java: corretto11
   pre_build:
     commands:
       - echo "Entered the pre-build"
@@ -13,4 +16,4 @@ phases:
       - mv target/deploy ./
 artifacts:
   files:
-    - deploy/**/*
+    - deploy/*/
