@@ -1,0 +1,57 @@
+2021-08-02_06-55-23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-02_06-55-23 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 15.0.2 on ROG with PID 4204 (D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice\target\classes started by Asus in D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice)
+2021-08-02_06-55-23 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d1bb1266-2cdf-3a48-8a06-7453420732d3
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-02_06-55-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-02_06-55-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-02_06-55-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-02_06-55-23 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1981 ms
+2021-08-02_06-55-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-02_06-55-23 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-02_07-00-14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-02_07-00-14 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 15.0.2 on ROG with PID 20212 (D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice\target\classes started by Asus in D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice)
+2021-08-02_07-00-14 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d1bb1266-2cdf-3a48-8a06-7453420732d3
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-02_07-00-14 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-02_07-00-14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-02_07-00-14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-02_07-00-14 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+2021-08-02_07-00-14 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-02_07-00-14 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-02_07-01-09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-02_07-01-09 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 15.0.2 on ROG with PID 19644 (D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice\target\classes started by Asus in D:\Cognizant\MFPE\Pension-Management\Pension-Management\ProcessPension-Microservice)
+2021-08-02_07-01-09 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=36ccf818-6267-383a-a52e-73de92bb680f
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-02_07-01-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-02_07-01-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-02_07-01-09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-02_07-01-09 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1513 ms
+2021-08-02_07-01-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-02_07-01-09 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

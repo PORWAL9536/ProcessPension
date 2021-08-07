@@ -1,0 +1,5 @@
+2021-08-04_10-21-48 [main] ERROR c.c.p.p.e.GlobalExceptionHandler - Aadhar Card Number is not Valid. Please check it and try again
+2021-08-04_10-21-48 [main] ERROR c.c.p.p.e.GlobalExceptionHandler - Invalid pensioner detail provided, please provide valid detail.
+2021-08-04_10-21-48 [main] ERROR c.c.p.p.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2021-08-04_10-21-48 [main] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed
+2021-08-04_10-21-48 [main] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed
