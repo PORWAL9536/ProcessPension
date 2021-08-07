@@ -115,36 +115,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		 <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <executions>
-            <execution>
-                <id>default-war</id>
-    <phase>prepare-package</phase>                      
-                <configuration>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-    <archive>
-      <manifest>
-        <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-      </manifest>
-      <manifestEntries>
-        <Implementation-Build>${buildNumber}</Implementation-Build>
-      </manifestEntries>
-    </archive>
-                    <webResources>
-                        <resource>
-                            <directory>${basedir}/src/main/webapp</directory>
-                            <filtering>true</filtering>
-                            <includes>
-                                <include>**/*.jsp</include>
-                            </includes>
-                        </resource>
-                    </webResources>
-                </configuration>
-            </execution>
-        </executions>
-    </plugin>
 	</build>
 
 </project>
